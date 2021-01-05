@@ -55,7 +55,7 @@ from common.djangoapps.student import views as student_views
 from common.djangoapps.util import views as util_views
 
 # guangyaw modify for nid
-from school_id_login import views as school_id_views
+from lms.djangoapps.school_id_login import views as school_id_views
 
 RESET_COURSE_DEADLINES_NAME = 'reset_course_deadlines'
 RENDER_XBLOCK_NAME = 'render_xblock'

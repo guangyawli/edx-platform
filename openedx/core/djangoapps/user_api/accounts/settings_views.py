@@ -36,7 +36,7 @@ from common.djangoapps.student.models import UserProfile
 from common.djangoapps.third_party_auth import pipeline
 from common.djangoapps.util.date_utils import strftime_localized
 # add for nid
-from school_id_login.models import Xsuser
+from lms.djangoapps.school_id_login.models import Xsuser
 
 log = logging.getLogger(__name__)
 

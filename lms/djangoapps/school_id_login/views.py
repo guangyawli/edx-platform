@@ -25,8 +25,7 @@ from util.json_request import JsonResponse
 import json
 import re
 import requests
-from school_id_login.models import Xschools
-from school_id_login.models import Xsuser
+from lms.djangoapps.school_id_login.models import Xschools, Xsuser
 from django.conf import settings
 from django.utils.translation import ugettext as _
 #from django.contrib import auth
