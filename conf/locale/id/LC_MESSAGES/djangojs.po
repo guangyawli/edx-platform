@@ -1,6 +1,6 @@
 # #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/).
-# Copyright (C) 2020 EdX
+# edX translation file.
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -31,8 +31,8 @@
 # stefanny tan <stefannysik@me.com>, 2016
 # Waheed Ahmed <waheed@edx.org>, 2019
 # #-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/).
-# Copyright (C) 2020 EdX
+# edX translation file.
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -43,18 +43,18 @@
 # Faizar Septiawan <faizarsangster@gmail.com>, 2020
 # fizdoonk, 2013
 # #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (https://www.transifex.com/open-edx/teams/6205/id/).
-# Copyright (C) 2020 EdX
+# edX translation file.
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
+# EdX Team <info@edx.org>, 2021.
 #
 # Translators:
 # Rizky Ariestiyansyah <ariestiyansyah.rizky@gmail.com>, 2019
 # Aprisa Chrysantina <aprisa.chrysantina@gmail.com>, 2019
 #
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)
-# Copyright (C) 2020 edX
+# edX translation file
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -68,8 +68,8 @@
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019
 # Zainab Amir <zamir@edx.org>, 2019
 # #-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)
-# Copyright (C) 2020 edX
+# edX translation file
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -82,9 +82,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-10-18 20:43+0000\n"
-"PO-Revision-Date: 2020-10-04 20:44+0000\n"
-"Last-Translator: Eka Y Saputra <ekajogja@ymail.com>\n"
+"POT-Creation-Date: 2021-01-03 20:43+0000\n"
+"PO-Revision-Date: 2020-12-06 20:44+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -100,6 +100,8 @@ msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
 msgstr ""
+"Ini mungkin terjadi karena ada kesalahan di server kami atau koneksi "
+"Internet Anda. Coba refresh halaman untuk memastikan Anda online."
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js
 #: cms/static/js/certificates/views/signatory_details.js
@@ -121,6 +123,22 @@ msgstr "Menyimpan"
 #: cms/static/js/views/manage_users_and_roles.js
 #: cms/static/js/views/show_textbook.js
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-settings-learning-fields.underscore
+#: cms/templates/js/course_grade_policy.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/partition-group-details.underscore
+#: cms/templates/js/show-textbook.underscore
+#: cms/templates/js/signatory-editor.underscore
+#: cms/templates/js/video-transcripts.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Delete"
 msgstr "Hapus"
 
@@ -298,7 +316,7 @@ msgstr "Perubahan Anda telah disimpan."
 #: cms/static/js/views/xblock_validation.js
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "Warning"
-msgstr ""
+msgstr "Peringatan"
 
 #. Translators: This message will be added to the front of messages of type
 #. error,
@@ -323,7 +341,7 @@ msgstr "Mengupdate dengan konten library terakhir"
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Loading..."
-msgstr ""
+msgstr "Memuat..."
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Selected blocks"
@@ -794,9 +812,12 @@ msgstr "Hapus baris"
 msgid "Delete table"
 msgstr "Hapus tabel"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Description"
 msgstr "Deskripsi"
 
@@ -830,9 +851,19 @@ msgstr "Properti dokumen"
 msgid "Edit HTML"
 msgstr "Edit HTML"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/partition-group-details.underscore
+#: cms/templates/js/show-textbook.underscore
+#: cms/templates/js/signatory-details.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Edit"
 msgstr "Edit"
 
@@ -1580,9 +1611,13 @@ msgstr ""
 "URL anda seperti tautan eksternal. Apakah anda ingin menambahkan prefiks "
 "http:// ?"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/signatory-details.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Title"
 msgstr "Judul"
 
@@ -2056,6 +2091,7 @@ msgid "Your request could not be processed. Refresh the page and try again."
 msgstr "Permintaan Anda tidak dapat diproses. Refresh halaman dan coba lagi."
 
 #: common/static/common/js/discussion/utils.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "…"
 msgstr "…"
 
@@ -2255,6 +2291,7 @@ msgid "Your post will be discarded."
 msgstr "Posting anda akan di hapus"
 
 #: common/static/common/js/discussion/views/response_comment_show_view.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "anonymous"
 msgstr "anonim"
 
@@ -2579,7 +2616,7 @@ msgstr "Masuk ke {platform} supaya kami dapat membantumu lebih baik."
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx
 msgid "Need help logging in?"
-msgstr ""
+msgstr "Butuh bantuan untuk masuk?"
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid ""
@@ -2591,7 +2628,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Select a subject for your support request."
-msgstr ""
+msgstr "Berikan judul untuk permintaan dukungan Anda."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Enter some details for your support request."
@@ -3343,16 +3380,14 @@ msgstr ""
 " halaman ini dan coba kembali."
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js
-msgid "<%= user %> already in exception list."
-msgstr "<%= user %> telah berada dalam daftar eksepsi."
+msgid "<%- user %> already in exception list."
+msgstr ""
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js
 msgid ""
-"<%= user %> has been successfully added to the exception list. Click "
+"<%- user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
-"<%= user %> telah berhasil ditambahkan dalam daftar eksepsi. Klik Buat "
-"Sertifikat Eksepsi di bawah untuk mengirim sertifikat."
 
 #: lms/static/js/course_survey.js
 msgid "There has been an error processing your survey."
@@ -3376,6 +3411,7 @@ msgid "HTML preview of post"
 msgstr "Pratinjau HTML post ini"
 
 #: lms/static/js/customwmd.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Your question or idea (required)"
 msgstr "Pertanyaan atau ide Anda (wajib diisi)"
 
@@ -3454,7 +3490,7 @@ msgstr ""
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "Why does edX collect this information?"
-msgstr ""
+msgstr "Why does edX collect this information?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
@@ -3486,7 +3522,7 @@ msgstr ""
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "Select employment status"
-msgstr ""
+msgstr "Select employment status"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "What industry do you currently work in?"
@@ -3522,7 +3558,7 @@ msgstr ""
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "next page"
-msgstr ""
+msgstr "halaman Selanjutnya"
 
 #: lms/static/js/discovery/views/search_form.js
 #, javascript-format
@@ -3655,10 +3691,8 @@ msgid "Recent Activity"
 msgstr "Aktivitas Terbaru"
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js
-msgid "No results found for \"%(query_string)s\". Please try searching again."
+msgid "No results found for \"{query_string}\". Please try searching again."
 msgstr ""
-"Tidak ditemukan hasil pencarian untuk \"%(query_string)s\". Silakan coba "
-"cari kembali."
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
@@ -5539,10 +5573,12 @@ msgstr "Buka Semua"
 msgid "Collapse All"
 msgstr "Tutup Semua"
 
+#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show More"
 msgstr "Tampilkan Lagi"
 
+#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show Less"
 msgstr "Tampilkan Lebih Sedikit"
@@ -5753,6 +5789,7 @@ msgstr ""
 
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Staff"
 msgstr "Pegawai"
 
@@ -6124,7 +6161,7 @@ msgstr "Unggah Berkas Baru"
 
 #: cms/static/js/views/assets.js
 msgid "Load Another File"
-msgstr ""
+msgstr "Muat File Lain"
 
 #: cms/static/js/views/components/add_xblock.js
 #: cms/static/js/views/utils/xblock_utils.js
@@ -6428,8 +6465,8 @@ msgid "Highlights for {display_name}"
 msgstr "Sorotan untuk {display_name}"
 
 #: cms/static/js/views/modals/course_outline_modals.js
-msgid "Enable Weekly Highlight Emails"
-msgstr "Aktifkan Email Sorotan Mingguan"
+msgid "Enable Course Highlight Emails"
+msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Enable"
@@ -7153,7 +7190,7 @@ msgstr "Cari"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Response"
-msgstr ""
+msgstr "Berikan Respon"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This thread is closed."
@@ -7161,7 +7198,7 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a response:"
-msgstr ""
+msgstr "Berikan respon:"
 
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -7171,55 +7208,57 @@ msgstr "Kirim"
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "diskusi diposting %(time_ago)s oleh %(author)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "question posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "pertanyaan diposting %(time_ago)s oleh %(author)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pinned"
-msgstr ""
+msgstr "Sematkan"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Reported"
-msgstr ""
+msgstr "Dilaporkan"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Closed"
-msgstr ""
+msgstr "Tutup"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
-msgstr ""
+msgstr "Berhubungan dengan: %(courseware_title_linked)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post is visible only to %(group_name)s."
-msgstr ""
+msgstr "Posting ini  hanya terlihat oleh %(group_name)s."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post is visible to everyone."
-msgstr ""
+msgstr "Posting ini terlihat oleh semua orang"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing post"
-msgstr ""
+msgstr "Mengedit post"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
 msgstr ""
+"Tambahkan judul yang jelas dan deskriptif supaya peserta berpartisipasi. "
+"(Wajib diisi)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Edit your post below."
-msgstr ""
+msgstr "Edit post Anda di bawah ini."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update post"
-msgstr ""
+msgstr "Memperbarui post"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -7229,72 +7268,72 @@ msgstr[0] ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a comment"
-msgstr ""
+msgstr "Tambah komentar"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "ditandai sebagai jawaban %(time_ago)s oleh %(user)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s"
-msgstr ""
+msgstr "ditandai sebagai jawaban %(time_ago)s "
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "didukung %(time_ago)s oleh %(user)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s"
-msgstr ""
+msgstr "didukung %(time_ago)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing response"
-msgstr ""
+msgstr "Mengedit respon"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update response"
-msgstr ""
+msgstr "Memperbarui respon"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "diposting %(time_ago)s oleh %(author)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing comment"
-msgstr ""
+msgstr "Mengedit komentar"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update comment"
-msgstr ""
+msgstr "Memperbarui komentar"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "discussion"
-msgstr ""
+msgstr "diskusi"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "answered question"
-msgstr ""
+msgstr "pertanyaan yang terjawab"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "unanswered question"
-msgstr ""
+msgstr "pertanyaan yang belum dijawab"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Following"
-msgstr ""
+msgstr "Mengikuti"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Community TA"
-msgstr ""
+msgstr "Komunitas Asisten-Pengajar"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "{unread_comments_count} new"
-msgstr ""
+msgstr "{unread_comments_count} baru"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -7302,62 +7341,68 @@ msgid ""
 "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
 "unread comments)%(span_close)s"
 msgstr ""
+"%(comments_count)s %(span_sr_open)skomentar (%(unread_comments_count)s "
+"komentar belum dibaca)%(span_close)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
-msgstr ""
+msgstr "%(comments_count)s %(span_sr_open)skomentar %(span_close)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
-msgstr ""
+msgstr "Tambah Pos"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Visible to"
-msgstr ""
+msgstr "Dapat dilihat oleh"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
 "students or specify a single group."
 msgstr ""
+"Admin, moderator, dan TA diskusi dapat membuat sebuah post terlihat oleh "
+"semua peserta atau satu grup tertentu."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "All Groups"
-msgstr ""
+msgstr "Semua grup"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "follow this post"
-msgstr ""
+msgstr "ikuti posting ini"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
-msgstr ""
+msgstr "post secara anonim"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
-msgstr ""
+msgstr "post secara anonim untuk teman sekelas Anda"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Error posting your message."
-msgstr ""
+msgstr "Gagal memposting pesan Anda."
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post will be visible only to %(group_name)s."
-msgstr ""
+msgstr "Post ini hanya terlihat oleh %(group_name)s."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post will be visible to everyone."
-msgstr ""
+msgstr "Post ini dapat dilihat semua orang."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Topic area"
-msgstr ""
+msgstr "Area topik"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add your post to a relevant topic to help others find it. (Required)"
 msgstr ""
+"Tambahkan post Anda ke topik yang relevan untuk membantu lainnya "
+"menemukannya. (Wajib diisi)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Community TA)"
@@ -7365,7 +7410,7 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Staff)"
-msgstr ""
+msgstr "(Staf)"
 
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore
@@ -7378,81 +7423,83 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "View discussion"
-msgstr ""
+msgstr "Lihat diskusi"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Load more"
-msgstr ""
+msgstr "Muat lebih banyak"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Post type"
-msgstr ""
+msgstr "Jenis Post"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
 "conversations. (Required)"
 msgstr ""
+"Pertanyaan menimbulkan isu yang perlu dijaab. Diskusi berbagi ide dan "
+"menginisiasi percakapan. (Wajib diisi)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
-msgstr ""
+msgstr "Pertanyaan"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Discussion"
-msgstr ""
+msgstr "Diskusi"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Endorse"
-msgstr ""
+msgstr "Dukung"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unendorse"
-msgstr ""
+msgstr "Batalkan Dukungan"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Mark as Answer"
-msgstr ""
+msgstr "Tandai sebagai jawaban"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unmark as Answer"
-msgstr ""
+msgstr "Batalkan tanda sebagai Jawaban"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Follow"
-msgstr ""
+msgstr "Ikuti"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unfollow"
-msgstr ""
+msgstr "Batal Mengikuti"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Vote for this post,"
-msgstr ""
+msgstr "Vote postingan ini,"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Report abuse"
-msgstr ""
+msgstr "Laporkan penyalahgunaan"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Report"
-msgstr ""
+msgstr "Laporkan"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unreport"
-msgstr ""
+msgstr "Batalkan laporan"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pin"
-msgstr ""
+msgstr "Pin"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unpin"
-msgstr ""
+msgstr "Unpin"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Open"
-msgstr ""
+msgstr "Buka"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Discussion Home"
@@ -7654,7 +7701,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Date Joined"
-msgstr ""
+msgstr "Tanggal Bergabung"
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Password Status"
@@ -8566,7 +8613,7 @@ msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Forgot my password"
-msgstr ""
+msgstr "Lupa kata sandi saya"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Other sign-in issues"
@@ -8582,7 +8629,7 @@ msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Create an account"
-msgstr ""
+msgstr "Membuat acoount"
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -8794,7 +8841,7 @@ msgstr "Apa yang anda perlukan untuk verifikasi"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Device with Camera"
-msgstr ""
+msgstr "Device with Camera"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
@@ -8808,7 +8855,7 @@ msgstr "Identifikasi Photo"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "You need a valid ID that contains your full name and photo."
-msgstr ""
+msgstr "You need a valid ID that contains your full name and photo."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -8857,6 +8904,8 @@ msgid ""
 "We use your verification photos to confirm your identity and ensure the "
 "validity of your certificate."
 msgstr ""
+"We use your verification photos to confirm your identity and ensure the "
+"validity of your certificate."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8908,6 +8957,8 @@ msgid ""
 "What if I have difficulty holding my head in position relative to the "
 "camera?"
 msgstr ""
+"What if I have difficulty holding my head in position relative to the "
+"camera?"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8982,6 +9033,7 @@ msgstr ""
 msgid ""
 "What if I have difficulty holding my ID in position relative to the camera?"
 msgstr ""
+"What if I have difficulty holding my ID in position relative to the camera?"
 
 #: lms/templates/verify_student/image_input.underscore
 msgid "Preview of uploaded image"
@@ -9740,7 +9792,7 @@ msgid "Copy Component Location"
 msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore
-msgid "Weekly Highlight Emails"
+msgid "Course Highlight Emails"
 msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore
@@ -10097,7 +10149,7 @@ msgstr ""
 
 #: cms/templates/js/course_info_update.underscore
 msgid "Date"
-msgstr ""
+msgstr "Tanggal"
 
 #: cms/templates/js/course_info_update.underscore
 msgid "Post"

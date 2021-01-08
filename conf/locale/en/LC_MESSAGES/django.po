@@ -1,55 +1,55 @@
-# #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+# #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
 #
-# #-#-#-#-#  django-studio.po (0.1a)  #-#-#-#-#
+# Translators:
+# #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
 #
-# #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
+# Translators:
+# #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
 #
-# #-#-#-#-#  mako-studio.po (0.1a)  #-#-#-#-#
+# Translators:
+# #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
 #
-# #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
+# Translators:
+# #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
 #
+# Translators:
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
+# EdX Team <info@edx.org>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-10-25 20:51+0000\n"
-"PO-Revision-Date: 2020-10-25 20:51:22.874682\n"
-"Last-Translator: \n"
-"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
+"POT-Creation-Date: 2021-01-03 20:43+0000\n"
+"PO-Revision-Date: 2019-01-20 20:43+0000\n"
+"Last-Translator: Thor Prichard <tprichard@clarity-innovations.com>\n"
+"Language-Team: English (https://www.transifex.com/open-edx/teams/6205/en/)\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.8.0\n"
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
 #. the discussion forums
 #: cms/djangoapps/contentstore/views/component.py
@@ -130,7 +130,7 @@ msgstr ""
 msgid "Video ID"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This is listed as the duration for a video that has not
 #. yet reached the point in its processing by the servers where its
 #. duration is determined.
@@ -331,7 +331,7 @@ msgstr ""
 msgid "Account recovery"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the login form
 #. meant to hold the user's password.
 #. Translators: This label appears above a field on the registration form
@@ -1775,12 +1775,12 @@ msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: Separator used in NumericalResponse to display multiple
 #. answers.
 #. Translators: Separator used in StringResponse to display multiple answers.
 #. Example: "Answer: Answer_1 or Answer_2 or Answer_3".
-#. #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this is the last choice of a number of choices of how to log
 #. in
 #. to the site.
@@ -4437,7 +4437,7 @@ msgstr ""
 msgid "Unlock Account"
 msgstr ""
 
-#. #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a control to allow users to exit out of this modal
 #. interface (a menu or piece of UI that takes the full focus of the screen)
 #: common/templates/admin/student/loginfailures/change_form_template.html
@@ -4737,10 +4737,10 @@ msgid ""
 "their respective logos are registered trademarks of edX Inc."
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Open edX' is a trademark, please keep this untranslated.
 #. See http://openedx.org for more information.
-#. #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Open edX' is a brand, please keep this untranslated. See
 #. http://openedx.org for more information.
 #: lms/djangoapps/branding/api.py cms/templates/widgets/footer.html
@@ -4807,7 +4807,7 @@ msgstr ""
 msgid "Terms of Service & Honor Code"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: A 'Privacy Policy' is a legal document/statement describing a
 #. website's use of personal information
 #: lms/djangoapps/branding/api.py lms/djangoapps/certificates/views/webview.py
@@ -4824,7 +4824,7 @@ msgstr ""
 msgid "Accessibility Policy"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
 #: lms/djangoapps/branding/api.py
@@ -5708,7 +5708,7 @@ msgstr ""
 msgid "Progress"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Textbooks' refers to the tab in the course that leads to the
 #. course' textbooks
 #: lms/djangoapps/courseware/tabs.py cms/templates/textbooks.html
@@ -6030,15 +6030,6 @@ msgid "Total number of users"
 msgstr ""
 
 #: lms/djangoapps/dashboard/sysadmin.py
-#: lms/djangoapps/support/views/manage_user.py lms/templates/tracking_log.html
-msgid "username"
-msgstr ""
-
-#: lms/djangoapps/dashboard/sysadmin.py
-msgid "email"
-msgstr ""
-
-#: lms/djangoapps/dashboard/sysadmin.py
 msgid "Create User Results"
 msgstr ""
 
@@ -6104,14 +6095,6 @@ msgstr ""
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Enrollment information for all courses"
-msgstr ""
-
-#: lms/djangoapps/dashboard/sysadmin.py
-msgid "role"
-msgstr ""
-
-#: lms/djangoapps/dashboard/sysadmin.py
-msgid "full_name"
 msgstr ""
 
 #: lms/djangoapps/discussion/django_comment_client/base/views.py
@@ -6392,7 +6375,7 @@ msgstr ""
 msgid "Username"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the login form
 #. meant to hold the user's email address.
 #. Translators: This label appears above a field on the password reset
@@ -6421,7 +6404,7 @@ msgstr ""
 msgid "Birth Year"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's gender.
 #: lms/djangoapps/instructor/views/api.py
@@ -6469,7 +6452,7 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. which allows the user to input the city in which they live.
 #: lms/djangoapps/instructor/views/api.py
@@ -6856,7 +6839,7 @@ msgstr ""
 msgid "An extended due date must be later than the original due date."
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's full name.
 #: lms/djangoapps/instructor/views/tools.py
@@ -6940,7 +6923,7 @@ msgstr ""
 msgid "reset"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py
@@ -7297,6 +7280,10 @@ msgstr ""
 msgid "Find information related to a learner's program enrollments"
 msgstr ""
 
+#: lms/djangoapps/support/views/manage_user.py lms/templates/tracking_log.html
+msgid "username"
+msgstr ""
+
 #: lms/djangoapps/support/views/manage_user.py
 msgid "user_support_url"
 msgstr ""
@@ -7488,10 +7475,6 @@ msgstr ""
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Missing required parameter face_image"
-msgstr ""
-
-#: lms/djangoapps/verify_student/views.py
-msgid "Invalid course key"
 msgstr ""
 
 #: lms/djangoapps/verify_student/views.py
@@ -7949,7 +7932,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Your approval status remains valid for one year, and it will expire "
-"%(expiry_date)s."
+"%(expiration_datetime)s."
 msgstr ""
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html
@@ -8154,13 +8137,13 @@ msgstr ""
 #: lms/templates/wiki/edit.html cms/templates/container.html
 #: wiki/templates/wiki/edit.html
 msgid "Preview"
-msgstr ""
+msgstr "Preview"
 
 #: lms/templates/wiki/edit.html
 msgid "Wiki Preview"
 msgstr ""
 
-#. #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this text gives status on if the modal interface (a menu or
 #. piece of UI that takes the full focus of the screen) is open or not
 #: lms/templates/wiki/edit.html lms/templates/wiki/history.html
@@ -9098,6 +9081,34 @@ msgstr ""
 msgid "This is a test error"
 msgstr ""
 
+#. Translators: A key specifying a course, library, program, website, or some
+#. other collection of content where learning happens.
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Learning Context Key"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid ""
+"If disabled, the discussions in the associated learning context/course will "
+"be disabled."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The LTI configuration data for this context/provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The plugin configuration data for this context/provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Discussion provider"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The discussion tool/provider's id"
+msgstr ""
+
 #: openedx/core/djangoapps/django_comment_common/models.py
 msgid "Administrator"
 msgstr ""
@@ -9523,6 +9534,7 @@ msgid "You are eligible to upgrade in these courses:"
 msgstr ""
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html
+#: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html
 msgid "Example of a verified certificate"
 msgstr ""
 
@@ -9686,7 +9698,7 @@ msgstr ""
 msgid "Company"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. which allows the user to input the Title
 #: openedx/core/djangoapps/user_api/accounts/settings_views.py
@@ -9702,7 +9714,7 @@ msgstr ""
 msgid "Job Title"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's mailing address.
 #: openedx/core/djangoapps/user_api/accounts/settings_views.py
@@ -9965,6 +9977,13 @@ msgid ""
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"To protect your account, it’s been temporarily locked. Try again in {locked_out_period} minutes.\n"
+"To be on the safe side, you can reset your password {link_start}here{link_end} before you try again.\n"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/login.py
 msgid "Too many failed login attempts. Try again later."
 msgstr ""
 
@@ -9975,6 +9994,14 @@ msgid ""
 "sign-in attempts before your account is temporarily "
 "locked.{li_end}{li_start}If you've forgotten your password, click "
 "{link_start}here{link_end} to reset.{li_end}"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"Email or password is incorrect.\n"
+"You have {remaining_attempts} more sign-in attempts before your account is temporarily locked.\n"
+"If you{quote}ve forgotten your password, click {link_start}here{link_end} to reset.\n"
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/login.py
@@ -9993,10 +10020,6 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 #, python-brace-format
 msgid "The email address you used to register with {platform_name}"
-msgstr ""
-
-#: openedx/core/djangoapps/user_authn/views/login_form.py
-msgid "Create Account"
 msgstr ""
 
 #. Translators: This example email address is used as a placeholder in
@@ -10148,7 +10171,7 @@ msgstr ""
 msgid "This name will be used on any certificates that you earn."
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's public username.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
@@ -10172,7 +10195,7 @@ msgstr ""
 msgid "Highest level of education completed"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's year of birth.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
@@ -10232,6 +10255,10 @@ msgstr ""
 msgid ""
 "I agree to the {platform_name} "
 "{tos_link_start}{terms_of_service}{tos_link_end}"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/utils.py
+msgid "Create Account"
 msgstr ""
 
 #: openedx/core/djangoapps/util/user_messages.py
@@ -10517,11 +10544,6 @@ msgstr ""
 msgid "Updates"
 msgstr ""
 
-#: openedx/features/course_experience/plugins.py
-#: openedx/features/course_experience/templates/course_experience/course-reviews-fragment.html
-msgid "Reviews"
-msgstr ""
-
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format
 msgid "{sign_in_link} or {register_link} and then enroll in this course."
@@ -10693,6 +10715,27 @@ msgid ""
 "To participate in this assignment, the suggested schedule for your course "
 "needs updating. Don’t worry, we’ll shift all the due dates for you and you "
 "won’t lose any of your progress."
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "Try again ({attempts} attempt remaining)"
+msgid_plural "Try again ({attempts} attempts remaining)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "You have used {attempts} of {max_attempts} attempts for this problem."
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+msgid "Try again (unlimited attempts)"
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "You have used {attempts} of unlimited attempts for this problem."
 msgstr ""
 
 #: themes/red-theme/lms/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt
@@ -10942,7 +10985,15 @@ msgid "HTML"
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/component.py
+msgid "Open Response"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
 msgid "Blank"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Blank Open Response Assessment"
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
@@ -11137,6 +11188,11 @@ msgid ""
 "organization."
 msgstr ""
 
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
+
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
@@ -11211,7 +11267,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/user.py
 #, python-brace-format
-msgid "User {email} has registered but has not yet activated his/her account."
+msgid "User {email} has registered but has not yet activated their account."
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/user.py
@@ -11222,7 +11278,7 @@ msgstr ""
 msgid "You may not remove the last Admin. Add another Admin first."
 msgstr ""
 
-#. #-#-#-#-#  django-studio.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
 #. Translators: This is the status of an active video upload
 #: cms/djangoapps/contentstore/views/videos.py cms/templates/import.html
 msgid "Uploading"
@@ -11538,7 +11594,7 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#. #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
+#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a verb describing the action of viewing more details
 #: cms/templates/studio_xblock_wrapper.html
 #: lms/templates/wiki/includes/article_menu.html
@@ -12114,7 +12170,7 @@ msgid "Welcome to {platform_name}"
 msgstr ""
 
 #. Translators: 'Open edX' is a registered trademark, please keep this
-#. untranslated. See http://open.edx.org for more information.
+#. untranslated. See https://open.edx.org for more information.
 #: lms/templates/index_overlay.html
 msgid "It works! Powered by Open edX{registered_trademark}"
 msgstr ""
@@ -12627,6 +12683,10 @@ msgid "Git Logs"
 msgstr ""
 
 #: lms/templates/sysadmin_dashboard.html
+msgid "Note: Sysadmin panel will be deprecated in the next release."
+msgstr ""
+
+#: lms/templates/sysadmin_dashboard.html
 msgid "User Management"
 msgstr ""
 
@@ -12643,25 +12703,9 @@ msgid "Create user"
 msgstr ""
 
 #: lms/templates/sysadmin_dashboard.html
-msgid "Download list of all users (csv file)"
-msgstr ""
-
-#: lms/templates/sysadmin_dashboard.html
-msgid "Check and repair external authentication map"
-msgstr ""
-
-#: lms/templates/sysadmin_dashboard.html
 msgid ""
 "Go to each individual course's Instructor dashboard to manage course "
 "enrollment."
-msgstr ""
-
-#: lms/templates/sysadmin_dashboard.html
-msgid "Manage course staff and instructors"
-msgstr ""
-
-#: lms/templates/sysadmin_dashboard.html
-msgid "Download staff and instructor list (csv file)"
 msgstr ""
 
 #: lms/templates/sysadmin_dashboard.html
@@ -15658,7 +15702,8 @@ msgstr ""
 
 #: lms/templates/emails/passed_verification_email.txt
 msgid ""
-"Your verification is effective for one year. It will expire on {expiry_date}"
+"Your verification is effective for one year. It will expire on "
+"{expiration_datetime}"
 msgstr ""
 
 #: lms/templates/emails/photo_submission_confirmation.txt
@@ -16074,6 +16119,10 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Professional"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html
+msgid "Executive Education"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
@@ -17842,6 +17891,12 @@ msgid "Pursue a verified certificate"
 msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
+msgid ""
+"Sample verified certificate with your name, the course title, the logo of "
+"the institution and the signatures of the instructors for this course."
+msgstr ""
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Upgrade ({price})"
 msgstr ""
 
@@ -18017,14 +18072,6 @@ msgstr ""
 
 #: themes/edx.org/cms/templates/widgets/sock.html
 msgid "edX Partner Portal"
-msgstr ""
-
-#: themes/edx.org/lms/templates/dashboard.html
-msgid "Want to make edX better for everyone?"
-msgstr ""
-
-#: themes/edx.org/lms/templates/dashboard.html
-msgid "Get started"
 msgstr ""
 
 #: themes/edx.org/lms/templates/dashboard.html

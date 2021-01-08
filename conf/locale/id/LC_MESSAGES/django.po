@@ -1,6 +1,6 @@
 # #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/).
-# Copyright (C) 2020 EdX
+# edX translation file.
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -21,8 +21,8 @@
 # Untag Pranata <untag@unzypsoft.com>, 2018
 # Waheed Ahmed <waheed@edx.org>, 2019
 # #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/).
-# Copyright (C) 2020 EdX
+# edX translation file.
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -32,8 +32,8 @@
 # Faizar Septiawan <faizarsangster@gmail.com>, 2020
 # fizdoonk, 2013
 # #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)
-# Copyright (C) 2020 edX
+# edX translation file
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -67,8 +67,8 @@
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019
 # Waheed Ahmed <waheed@edx.org>, 2019
 # #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)
-# Copyright (C) 2020 edX
+# edX translation file
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -80,8 +80,8 @@
 # Prita Ika Dewi <prita.tenda@gmail.com>, 2014
 # Rizky Ariestiyansyah <ariestiyansyah.rizky@gmail.com>, 2014
 # #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)
-# Copyright (C) 2020 edX
+# edX translation file
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -91,10 +91,10 @@
 # Muhammad Redho Ayassa <redhoyasa@gmail.com>, 2016
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
-# edX community translations have been downloaded from Indonesian (https://www.transifex.com/open-edx/teams/6205/id/)
-# Copyright (C) 2020 edX
+# edX translation file
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
+# EdX Team <info@edx.org>, 2021.
 #
 # Translators:
 # Waheed Ahmed <waheed@edx.org>, 2019
@@ -104,7 +104,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-10-18 20:43+0000\n"
+"POT-Creation-Date: 2021-01-03 20:43+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Aprisa Chrysantina <aprisa.chrysantina@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/open-edx/teams/6205/id/)\n"
@@ -129,8 +129,10 @@ msgstr "Diskusi"
 #: cms/djangoapps/contentstore/views/component.py
 #: openedx/core/djangoapps/content_libraries/constants.py
 msgid "Problem"
-msgstr ""
+msgstr "Permasalahan"
 
+#: cms/djangoapps/contentstore/views/component.py
+#: openedx/core/djangoapps/content_libraries/constants.py
 #: lms/templates/video.html
 msgid "Video"
 msgstr "Video"
@@ -445,11 +447,11 @@ msgstr ""
 #: common/djangoapps/student/admin.py
 #, python-brace-format
 msgid "Email doesn't have {domain_name} domain name."
-msgstr ""
+msgstr "Surel tidak memmiliki {domain_name} nama domain."
 
 #: common/djangoapps/student/admin.py
 msgid "User with this email doesn't exist in system."
-msgstr ""
+msgstr "Pengguna dengan surel ini tidak ditemukan dalam sistem."
 
 #: common/djangoapps/student/helpers.py
 #, python-brace-format
@@ -643,21 +645,10 @@ msgstr "{platform_name} Sertifikasi Profesional untuk {course_name}"
 
 #: common/djangoapps/student/models.py
 msgid ""
-"The company identifier for the LinkedIn Add-to-Profile button e.g "
-"0_0dPSPyS070e0HsE9HNz_13_d11_"
+"Your organization ID (if your organization has an existing page on LinkedIn)"
+" e.g 1337. If not provided, will default to sending Platform Name (e.g. edX)"
+" instead."
 msgstr ""
-"ID perusahaan untuk tombol LinkedIn Tambahkan-ke-Profil, misalnya "
-"0_0dPSPyS070e0HsE9HNz_13_d11_"
-
-#: common/djangoapps/student/models.py
-msgid ""
-"Short identifier for the LinkedIn partner used in the tracking code.  "
-"(Example: 'edx')  If no value is provided, tracking codes will not be sent "
-"to LinkedIn."
-msgstr ""
-"ID singkat untuk mitra LinkedIn yang digunakan dalam kode penelusuran. "
-"(Misalnya: 'edx'). Jika tidak ada nilai yang diberikan, maka kode "
-"penelusuran tidak akan dikirimkan ke LinkedIn."
 
 #: common/djangoapps/student/models.py
 #, python-brace-format
@@ -703,6 +694,9 @@ msgid ""
 "follows:                     user_id, username, email, course_id, "
 "is_verified, verification_date"
 msgstr ""
+"Diharapkan data yang diberikan dalam format file csv dengan baris pertama "
+"sebagai Header dan baris selanjutnya adalah Kolom dengan urutan: "
+"id_pengguna, nama pengguna, surel, id_kursus, is_verified, verifikasi_date"
 
 #: common/djangoapps/student/models.py
 msgid ""
@@ -739,7 +733,7 @@ msgstr ""
 msgid ""
 "It expect that the data will be provided in a csv file format with"
 "                     first row being the header and columns will be as "
-"follows:                     username, email, new_email"
+"follows:                     username, current_email, desired_email"
 msgstr ""
 
 #: common/djangoapps/student/models.py
@@ -2172,13 +2166,13 @@ msgstr "Selalu"
 msgid "Never"
 msgstr "Tidak pernah"
 
-#: common/lib/xmodule/xmodule/capa_base.py
+#: common/lib/xmodule/xmodule/capa_base.py lms/templates/courseware/dates.html
+#: lms/templates/vert_module.html
 msgid "Past Due"
 msgstr "Terlambat"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
-#: lms/templates/problem.html
 msgid "Show Answer"
 msgstr "Tampilkan Jawaban"
 
@@ -4606,6 +4600,9 @@ msgstr ""
 #: common/lib/xmodule/xmodule/templates/library-sourced-block-studio-view.html
 #: lms/templates/oauth2_provider/authorize.html
 #: openedx/core/djangoapps/user_api/admin.py
+#: cms/templates/course-create-rerun.html cms/templates/index.html
+#: cms/templates/manage_users.html cms/templates/manage_users_lib.html
+#: cms/templates/videos_index_pagination.html
 msgid "Cancel"
 msgstr "Batalkan"
 
@@ -5044,7 +5041,7 @@ msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 msgid "Activate Your Account"
-msgstr ""
+msgstr "Aktifkan account anda"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
@@ -5997,12 +5994,10 @@ msgstr "Eksplor Pelatihan"
 msgid "Not sure yet"
 msgstr "Belum yakin"
 
-#: lms/djangoapps/course_home_api/outline/v1/serializers.py
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html
-#, python-brace-format
 msgid "({number} Question)"
 msgid_plural "({number} Questions)"
-msgstr[0] ""
+msgstr[0] "({number} Pertanyaan)"
 
 #: lms/djangoapps/course_home_api/outline/v1/views.py
 msgid ""
@@ -6012,7 +6007,7 @@ msgstr ""
 
 #: lms/djangoapps/course_home_api/outline/v1/views.py
 msgid "'course_id' is required."
-msgstr ""
+msgstr "Diperlukan 'course_id'."
 
 #: lms/djangoapps/course_home_api/outline/v1/views.py
 msgid "Only 'course_id' is expected."
@@ -6082,11 +6077,11 @@ msgstr "Anda tidak memiliki akses ke pelatihan ini di perangkat seluler"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "You must be enrolled in the course"
-msgstr ""
+msgstr "Anda harus terdaftar pada kursus ini"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "You must be logged in to see this course"
-msgstr ""
+msgstr "Anda harus Masuk untuk melihat kursus ini"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "Please view your course in the existing experience"
@@ -6099,27 +6094,27 @@ msgstr "Tingkatkan ke Terverifikasi"
 
 #: lms/djangoapps/courseware/course_tools.py
 msgid "Financial Assistance"
-msgstr ""
+msgstr "Bantuan Finansial"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Assignment"
-msgstr ""
+msgstr "Tugas"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Open Response Assessment"
-msgstr ""
+msgstr "Penilaian Tanggapan terbuka"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Self Assessment"
-msgstr ""
+msgstr "Penilaian Sendiri"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Peer Assessment"
-msgstr ""
+msgstr "Penilaian Sebaya"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Staff Assessment"
-msgstr ""
+msgstr "Penilaian oleh Staf"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Submission"
@@ -6207,7 +6202,7 @@ msgstr "Pelatihan berakhir di {time_remaining_string} pada {course_end_time}."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "You lose all access to this course, including your progress."
-msgstr ""
+msgstr "Anda kehilangan semua akses atas kursus ini termasuk progres anda."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Audit Access Expires"
@@ -6401,7 +6396,7 @@ msgstr "Buku teks"
 
 #: lms/djangoapps/courseware/tabs.py
 msgid "Dates"
-msgstr ""
+msgstr "Tanggal"
 
 #: lms/djangoapps/courseware/views/index.py
 #, python-brace-format
@@ -6514,7 +6509,7 @@ msgstr "Untuk melihat konten pelatihan, {sign_in_link} atau {register_link}."
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format
 msgid "{sign_in_link} or {register_link}."
-msgstr ""
+msgstr "{sign_in_link} atau {register_link}."
 
 #: lms/djangoapps/courseware/views/views.py
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
@@ -6585,22 +6580,30 @@ msgstr "Pemasukan Rumah Tangga Tahunan"
 msgid ""
 "Tell us about your current financial situation. Why do you need assistance?"
 msgstr ""
+"Beritahukan pada kami tentang situasi keuangan Anda saat ini. Mengapa Anda "
+"memerlukan keringanan?"
 
 #: lms/djangoapps/courseware/views/views.py
 msgid ""
 "Tell us about your learning or professional goals. How will a Verified "
 "Certificate in this course help you achieve these goals?"
 msgstr ""
+"Beritahukan kepada lami tentang tujuan pembelajaran atau profesional Anda. "
+"Bagaimana Sertifikat Terverifikasi dalam pelatihan ini akan membantu Anda "
+"mencapai tujuan tersebut?"
 
 #: lms/djangoapps/courseware/views/views.py
 msgid ""
 "Tell us about your plans for this course. What steps will you take to help "
 "you complete the course work and receive a certificate?"
 msgstr ""
+"Beritahukan kepada kami tentang rencana akan Anda ambil untuk membantu Anda "
+"menyelesaikan tugas-tugas pelatihan dan mendapatkan sertifikat? "
 
 #: lms/djangoapps/courseware/views/views.py
 msgid "Use between 1250 and 2500 characters or so in your response."
 msgstr ""
+"Gunakan antara 1250 hingga 2500 karakter atau lebih dalam respons Anda."
 
 #: lms/djangoapps/courseware/views/views.py
 msgid ""
@@ -6638,6 +6641,8 @@ msgid ""
 "Non usable git url provided. Expecting something like: "
 "git@github.com:edx/edx4edx_lite.git"
 msgstr ""
+"Anda memberikan url git yang tidak dapat digunakan. Diharapkan url seperti "
+"ini: git@github.com:edx/edx4edx_lite.git"
 
 #: lms/djangoapps/dashboard/git_import.py
 msgid "Unable to get git log"
@@ -6689,7 +6694,7 @@ msgstr "Wajib menyertakan nama lengkap"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Password must be supplied"
-msgstr ""
+msgstr "Kata sandi harus di isi"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "email address required (not username)"
@@ -6735,15 +6740,6 @@ msgstr "Statistik situs"
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Total number of users"
 msgstr "Jumlah keseluruhan pengguna"
-
-#: lms/djangoapps/dashboard/sysadmin.py
-#: lms/djangoapps/support/views/manage_user.py lms/templates/tracking_log.html
-msgid "username"
-msgstr "nama pengguna"
-
-#: lms/djangoapps/dashboard/sysadmin.py
-msgid "email"
-msgstr "Email"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Create User Results"
@@ -6814,14 +6810,6 @@ msgstr "Instruktur"
 msgid "Enrollment information for all courses"
 msgstr "Informasi keikutsertaan dalam seluruh program"
 
-#: lms/djangoapps/dashboard/sysadmin.py
-msgid "role"
-msgstr "peran"
-
-#: lms/djangoapps/dashboard/sysadmin.py
-msgid "full_name"
-msgstr "nama_lengkap"
-
 #: lms/djangoapps/discussion/django_comment_client/base/views.py
 msgid "Title can't be empty"
 msgstr "Judul tidak dapat kosong"
@@ -6852,7 +6840,7 @@ msgstr "Baik"
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.html
 #, python-format
 msgid "%(comment_username)s replied to"
-msgstr ""
+msgstr "%(comment_username)s membalas ke"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.html
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt
@@ -6871,7 +6859,7 @@ msgstr "Merespon terhadap %(thread_title)s"
 
 #: lms/djangoapps/discussion/views.py
 msgid "Access to this discussion is restricted to team members and staff."
-msgstr ""
+msgstr "Akses ke diskusi ini khusus untuk anggota tim dan staf."
 
 #: lms/djangoapps/edxnotes/helpers.py
 msgid "EdxNotes Service is unavailable. Please try again in a few minutes."
@@ -6940,10 +6928,13 @@ msgstr ""
 #: lms/djangoapps/email_marketing/models.py
 msgid "Sailthru send template to use on passed ID verification."
 msgstr ""
+"Sailthru mengirim template untuk digunakan pada verifikasi ID yang lolos."
 
 #: lms/djangoapps/email_marketing/models.py
 msgid "Sailthru send template to use on failed ID verification."
 msgstr ""
+"Sailthru mengirim template untuk digunakan pada verifikasi ID yang tidak "
+"lolos."
 
 #: lms/djangoapps/email_marketing/models.py
 msgid "Sailthru send template to use on upgrading a course. Deprecated "
@@ -7195,11 +7186,11 @@ msgstr "Status Verifikasi"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Last Login"
-msgstr ""
+msgstr "Terakhir Masuk"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Date Joined"
-msgstr ""
+msgstr "Tanggal Bergabung"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Cohort"
@@ -7481,6 +7472,8 @@ msgid ""
 "Certificate Invalidation does not exist, Please refresh the page and try "
 "again."
 msgstr ""
+"Tidak dapat menemukan Validasi Sertifikat, Silakan refresh halaman ini dan "
+"coba kembali."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -7624,7 +7617,7 @@ msgstr "Tidak dapat menemukan modul untuk url: {0}"
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Could not find student enrollment in the course."
-msgstr ""
+msgstr "Tidak dapat menemukan pelajar yang terdaftar dalam kursus ini."
 
 #: lms/djangoapps/instructor/views/tools.py
 #, python-brace-format
@@ -7702,7 +7695,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor_task/models.py
 msgid "An error has occurred. Task was not created."
-msgstr ""
+msgstr "Terjadi kesalahan. Tugas belum dibuat."
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -7930,6 +7923,7 @@ msgstr " (skipping {skipped})"
 msgid " (out of {total})"
 msgstr " (out of {total})"
 
+#: lms/djangoapps/learner_dashboard/programs.py
 #: lms/templates/header/navbar-authenticated.html
 #: lms/templates/learner_dashboard/programs.html
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html
@@ -7938,6 +7932,7 @@ msgstr " (out of {total})"
 msgid "Programs"
 msgstr "Program"
 
+#: lms/djangoapps/learner_dashboard/programs.py
 #: lms/templates/learner_dashboard/program_details.html
 msgid "Program Details"
 msgstr "Detail Program"
@@ -8068,7 +8063,7 @@ msgstr ""
 #: lms/djangoapps/support/views/index.py
 #: lms/templates/support/link_program_enrollments.html
 msgid "Link Program Enrollments"
-msgstr ""
+msgstr "Tautan Pendaftaran Program"
 
 #: lms/djangoapps/support/views/index.py
 msgid "Link LMS users to program enrollments"
@@ -8081,6 +8076,10 @@ msgstr ""
 #: lms/djangoapps/support/views/index.py
 msgid "Find information related to a learner's program enrollments"
 msgstr ""
+
+#: lms/djangoapps/support/views/manage_user.py lms/templates/tracking_log.html
+msgid "username"
+msgstr "nama pengguna"
 
 #: lms/djangoapps/support/views/manage_user.py
 msgid "user_support_url"
@@ -8273,10 +8272,6 @@ msgstr ""
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Missing required parameter face_image"
-msgstr ""
-
-#: lms/djangoapps/verify_student/views.py
-msgid "Invalid course key"
 msgstr ""
 
 #: lms/djangoapps/verify_student/views.py
@@ -8772,7 +8767,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Your approval status remains valid for one year, and it will expire "
-"%(expiry_date)s."
+"%(expiration_datetime)s."
 msgstr ""
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html
@@ -9364,6 +9359,7 @@ msgstr "Ke Beranda %(platform_name)s"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
+#: cms/templates/widgets/header.html
 msgid "Sign In"
 msgstr "Masuk"
 
@@ -9671,6 +9667,13 @@ msgstr ""
 #: openedx/core/djangoapps/content_libraries/api.py
 #, python-brace-format
 msgid ""
+"You may not change a library's type to {library_type} if it still has "
+"unpublished changes."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api.py
+#, python-brace-format
+msgid ""
 "You can only set a library to {library_type} if all existing blocks are of "
 "that type. Found incompatible block {block_id} with type {block_type}."
 msgstr ""
@@ -9747,6 +9750,8 @@ msgid ""
 "List of domains that are allowed to make cross-domain requests to this site."
 "  Please list each domain on its own line."
 msgstr ""
+"daftar dari domain yang boleh untuk membuat request cross-domain ke website "
+"ini. Harap daftarkan setiap domain sebagai barisnya sendiri"
 
 #: openedx/core/djangoapps/course_groups/cohorts.py
 msgid "Default Group"
@@ -9932,6 +9937,34 @@ msgstr ""
 msgid "This is a test error"
 msgstr ""
 
+#. Translators: A key specifying a course, library, program, website, or some
+#. other collection of content where learning happens.
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Learning Context Key"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid ""
+"If disabled, the discussions in the associated learning context/course will "
+"be disabled."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The LTI configuration data for this context/provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The plugin configuration data for this context/provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Discussion provider"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The discussion tool/provider's id"
+msgstr ""
+
 #: openedx/core/djangoapps/django_comment_common/models.py
 msgid "Administrator"
 msgstr "Administrator"
@@ -9965,17 +9998,20 @@ msgstr "Kunci mata pelajaran untuk mata pelajaran terbatas."
 
 #: openedx/core/djangoapps/embargo/models.py
 msgid "The message to show when a user is blocked from enrollment."
-msgstr ""
+msgstr "Pesan untuk menunjukkan keitka pengguna di block dari pendaftaran"
 
 #: openedx/core/djangoapps/embargo/models.py
 msgid "The message to show when a user is blocked from accessing a course."
 msgstr ""
+"Pesan untuk menunjukkan ketika pengguna diblok dari pengaksesan kursus."
 
 #: openedx/core/djangoapps/embargo/models.py
 msgid ""
 "Allow users who enrolled in an allowed country to access restricted courses "
 "from excluded countries."
 msgstr ""
+"Membolehkan pengguna yang mendaftar di negara dengan izin untuk mengakses "
+"kursus yang dibatasi dari negara yang dikecualikan."
 
 #: openedx/core/djangoapps/embargo/models.py
 msgid "Two character ISO country code."
@@ -9991,11 +10027,11 @@ msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py
 msgid "The course to which this rule applies."
-msgstr ""
+msgstr "Aturan ini berlaku pada kursus ini."
 
 #: openedx/core/djangoapps/embargo/models.py
 msgid "The country to which this rule applies."
-msgstr ""
+msgstr "Aturan ini berlaku pada negara ini."
 
 #: openedx/core/djangoapps/embargo/models.py
 #, python-brace-format
@@ -10343,6 +10379,7 @@ msgstr ""
 "Upgrade sebelum %(user_schedule_upgrade_deadline_time)s."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html
+#: lms/templates/dates_banner.html
 msgid "Upgrade now"
 msgstr "Upgrade sekarang"
 
@@ -10376,6 +10413,7 @@ msgid "You are eligible to upgrade in these courses:"
 msgstr "Anda berhak mengupgrade kursus ini:"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html
+#: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html
 msgid "Example of a verified certificate"
 msgstr "Contoh sertifikat terverifikasi"
 
@@ -10825,7 +10863,14 @@ msgid ""
 "your dashboard. {blank_lines}If you don't have an account on {platform_name}"
 " yet, click {register_label_strong} at the top of the page."
 msgstr ""
+"Anda berhasil masuk ke akun {provider_name} Anda, namun akun ini tidak "
+"terhubung dengan akun {platform_name} Anda. {blank_lines}Gunakan nama "
+"pengguna dan sandi {platform_name} untuk masuk ke {platform_name} di bawah, "
+"lalu tautkan akun {platform_name} Anda dengan {provider_name} dari dashboard"
+" Anda. {blank_lines}Jika Anda belum memiliki akun di {platform_name}, klik "
+"{register_label_strong} di bagian atas halaman.."
 
+#: openedx/core/djangoapps/user_authn/views/login.py
 #: lms/templates/header/navbar-not-authenticated.html
 #: lms/templates/navigation/navbar-not-authenticated.html
 #: themes/edx.org/lms/templates/header/navbar-not-authenticated.html
@@ -10846,6 +10891,13 @@ msgid ""
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"To protect your account, it’s been temporarily locked. Try again in {locked_out_period} minutes.\n"
+"To be on the safe side, you can reset your password {link_start}here{link_end} before you try again.\n"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/login.py
 msgid "Too many failed login attempts. Try again later."
 msgstr "Terlalu sering gagal login. Coba lagi nanti."
 
@@ -10856,6 +10908,14 @@ msgid ""
 "sign-in attempts before your account is temporarily "
 "locked.{li_end}{li_start}If you've forgotten your password, click "
 "{link_start}here{link_end} to reset.{li_end}"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"Email or password is incorrect.\n"
+"You have {remaining_attempts} more sign-in attempts before your account is temporarily locked.\n"
+"If you{quote}ve forgotten your password, click {link_start}here{link_end} to reset.\n"
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/login.py
@@ -10875,10 +10935,6 @@ msgstr ""
 #, python-brace-format
 msgid "The email address you used to register with {platform_name}"
 msgstr "Alamat email yang anda gunakan untuk mendaftar di {platform_name}"
-
-#: openedx/core/djangoapps/user_authn/views/login_form.py
-msgid "Create Account"
-msgstr "Buat Akun"
 
 #. Translators: This example email address is used as a placeholder in
 #. a field on the password reset form meant to hold the user's email address.
@@ -11133,6 +11189,10 @@ msgid ""
 msgstr ""
 "Saya setuju dengan "
 "{tos_link_start}{terms_of_service}{tos_link_end}{platform_name} "
+
+#: openedx/core/djangoapps/user_authn/views/utils.py
+msgid "Create Account"
+msgstr "Buat Akun"
 
 #: openedx/core/djangoapps/util/user_messages.py
 #, python-brace-format
@@ -11423,11 +11483,6 @@ msgstr ""
 msgid "Updates"
 msgstr "Pembaruan"
 
-#: openedx/features/course_experience/plugins.py
-#: openedx/features/course_experience/templates/course_experience/course-reviews-fragment.html
-msgid "Reviews"
-msgstr "Tinjauan"
-
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format
 msgid "{sign_in_link} or {register_link} and then enroll in this course."
@@ -11597,13 +11652,33 @@ msgstr "Lanjutkan"
 #: openedx/features/personalized_learner_schedules/call_to_action.py
 #: lms/templates/dates_banner.html
 msgid "Shift due dates"
-msgstr ""
+msgstr "Ubah tenggat waktu"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py
 msgid ""
 "To participate in this assignment, the suggested schedule for your course "
 "needs updating. Don’t worry, we’ll shift all the due dates for you and you "
 "won’t lose any of your progress."
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "Try again ({attempts} attempt remaining)"
+msgid_plural "Try again ({attempts} attempts remaining)"
+msgstr[0] ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "You have used {attempts} of {max_attempts} attempts for this problem."
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+msgid "Try again (unlimited attempts)"
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "You have used {attempts} of unlimited attempts for this problem."
 msgstr ""
 
 #: themes/red-theme/lms/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt
@@ -11705,11 +11780,11 @@ msgstr "Tidak dapat memperbarui atau mengklon repository git."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to export course to xml."
-msgstr ""
+msgstr "Tidak dapat mengekspor kursus ke xml."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to configure git username and password"
-msgstr ""
+msgstr "Tidak dapat mengkonfigurasi nama pengguna dan kata sandi git"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
@@ -11857,8 +11932,16 @@ msgid "HTML"
 msgstr "HTML"
 
 #: cms/djangoapps/contentstore/views/component.py
+msgid "Open Response"
+msgstr "Buka Respon"
+
+#: cms/djangoapps/contentstore/views/component.py
 msgid "Blank"
 msgstr "Kosong"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Blank Open Response Assessment"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Course has been successfully reindexed."
@@ -11939,11 +12022,13 @@ msgstr ""
 msgid "Vertical"
 msgstr "Vertikal"
 
+#: cms/djangoapps/contentstore/views/helpers.py
 #: cms/templates/course_outline.html lms/templates/ccx/schedule.html
 #: lms/templates/seq_module.html
 msgid "Section"
 msgstr "Bagian"
 
+#: cms/djangoapps/contentstore/views/helpers.py
 #: lms/templates/ccx/schedule.html
 msgid "Subsection"
 msgstr "Sub-bagian"
@@ -12056,6 +12141,11 @@ msgid ""
 "organization."
 msgstr ""
 
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
+
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
@@ -12130,8 +12220,8 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/user.py
 #, python-brace-format
-msgid "User {email} has registered but has not yet activated his/her account."
-msgstr "Pengguna {email} telah terdaftar tapi belum mengaktifkan akunnya."
+msgid "User {email} has registered but has not yet activated their account."
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Invalid `role` specified."
@@ -12251,7 +12341,7 @@ msgstr "Tanggal Ditambahkan"
 
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio
@@ -12354,7 +12444,7 @@ msgstr ""
 
 #: cms/urls.py
 msgid "Studio Administration"
-msgstr ""
+msgstr "Administrasi Studio"
 
 #: cms/templates/404.html cms/templates/error.html
 #: lms/templates/static_templates/404.html
@@ -12407,7 +12497,7 @@ msgstr "Garis Besar Kursus"
 #: cms/templates/widgets/deprecated-course-key-warning.html
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid "Warning"
-msgstr ""
+msgstr "Peringatan"
 
 #: cms/templates/html_error.html lms/templates/module-error.html
 msgid "Error:"
@@ -12662,13 +12752,15 @@ msgstr "Daftar urutan diskusi"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_private_fragment.html
 msgid "Private Discussion"
-msgstr ""
+msgstr "Diskusi Privat"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_private_fragment.html
 msgid ""
 "This is a private discussion. You do not have permissions to view this "
 "discussion"
 msgstr ""
+"Ini adalah diskusi privat. Anda tidak memiliki izin untuk melihat halaman "
+"ini."
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
 #: lms/templates/discussion/_user_profile.html
@@ -12831,24 +12923,32 @@ msgid ""
 "It looks like you missed some important deadlines based on our suggested "
 "schedule. "
 msgstr ""
+"Sepertinya anda melewatkan tenggat waktu penting dari jadwal yang kami "
+"sarankan."
 
 #: lms/templates/dates_banner.html
 msgid ""
 "To keep yourself on track, you can update this schedule and shift the past "
 "due assignments into the future by visiting "
 msgstr ""
+"Untuk menjaga perkembangan anda, anda dapat memperbaharui jadwal ini dan "
+"merubah tugas lalu yang jatuh tempo ke hari esok dengan mengunjungi"
 
 #: lms/templates/dates_banner.html
 msgid ""
 " Don't worry—you won't lose any of the progress you've made when you shift "
 "your due dates."
 msgstr ""
+" Jangan Khawatir—anda tidak akan kehilangan pencapaian anda jika "
+"memperbaharui tanggal jatuh tempo."
 
 #: lms/templates/dates_banner.html
 msgid ""
 "It looks like you missed some important deadlines based on our suggested "
 "schedule."
 msgstr ""
+"Sepertinya anda melewatkan tenggat waktu penting dari jadwal yang kami "
+"sarankan."
 
 #: lms/templates/dates_banner.html
 msgid ""
@@ -12856,14 +12956,17 @@ msgid ""
 "due assignments into the future. Don't worry—you won't lose any of the "
 "progress you've made when you shift your due dates."
 msgstr ""
+"Untuk menjaga perkembangan anda, anda dapat memperbaharui jadwal ini dan "
+"merubah tugas lalu yang jatuh tempo ke hari esok. Jangan Khawatir—anda tidak"
+" akan kehilangan pencapaian anda jika memperbaharui tanggal jatuh tempo."
 
 #: lms/templates/dates_banner.html
 msgid "You are auditing this course,"
-msgstr ""
+msgstr "Anda sedang memeriksa kursus ini,"
 
 #: lms/templates/dates_banner.html
 msgid " which means that you are unable to participate in graded assignments."
-msgstr ""
+msgstr "itu artinya anda tidak dapat mengikuti tugas bergelar."
 
 #: lms/templates/dates_banner.html
 msgid ""
@@ -12871,6 +12974,9 @@ msgid ""
 "schedule. Graded assignments and schedule adjustment are available to "
 "Verified Track learners."
 msgstr ""
+"Sepertinya anda melewatkan tenggat waktu penting dari jadwal yang kami "
+"sarankan. Tugas bergelar dan perubahan jadwal hanya berlaku bagi pelajar "
+"Jalur Terverifikasi"
 
 #: lms/templates/dates_banner.html
 msgid ""
@@ -12878,24 +12984,31 @@ msgid ""
 "schedule. To complete graded assignments as part of this course and shift "
 "the past due assignments into the future, you can upgrade today."
 msgstr ""
+"Sepertinya anda melewatkan tenggat waktu penting dari jadwal yang kami "
+"sarankan. Untuk menyelesaikan tugas bergelar yang merupakan bagian dari "
+"kursus ini dan merubah tugas lalu yang jatuh tempo ke hari esok, anda dapat "
+"tingkatkan sekarang juga."
 
 #: lms/templates/dates_banner.html
 msgid "Upgrade to shift due dates"
-msgstr ""
+msgstr "Tingkatkan untuk dapat merubah jatuh tempo."
 
 #: lms/templates/dates_banner.html
 msgid "Graded assignments are available to Verified Track learners."
-msgstr ""
+msgstr "Penilaian hanya tersedia untuk peserta Jalur Terverifikasi."
 
 #: lms/templates/dates_banner.html
 msgid ""
 " To complete graded assignments as part of this course, you can upgrade "
 "today."
 msgstr ""
+"Untuk dapat menyelesaikan penilaian tugas kursus ini, anda dapat tingkatkan "
+"akun sekarang."
 
 #: lms/templates/dates_banner.html
 msgid "We've built a suggested schedule to help you stay on track."
 msgstr ""
+"Kami telah membuat jadwal yang disarankan untuk membantu perkembangan anda."
 
 #: lms/templates/dates_banner.html
 msgid ""
@@ -12903,6 +13016,9 @@ msgid ""
 "happen to fall behind on our suggested dates, you'll be able to adjust them "
 "to keep yourself on track."
 msgstr ""
+"Tapi jangan khawatir—Ini fleksibel, jadi anda dapat belajar sesuai "
+"keinginan. Jika tertinggal dari jadwal yang disarankan, anda dapat "
+"menyesuaikannya untuk menjaga perkembangan anda."
 
 #: lms/templates/email_change_failed.html lms/templates/email_exists.html
 msgid "E-mail change failed"
@@ -13053,7 +13169,7 @@ msgid "Welcome to {platform_name}"
 msgstr "Selamat datang di {platform_name}"
 
 #. Translators: 'Open edX' is a registered trademark, please keep this
-#. untranslated. See http://open.edx.org for more information.
+#. untranslated. See https://open.edx.org for more information.
 #: lms/templates/index_overlay.html
 msgid "It works! Powered by Open edX{registered_trademark}"
 msgstr "Berhasil! Dipersembahkan oleh Open edX {registered_trademark}"
@@ -13194,6 +13310,8 @@ msgid ""
 "We're sorry, this module is temporarily unavailable. Our staff is working to"
 " fix it as soon as possible. "
 msgstr ""
+"Maaf, modul ini untuk sementara tidak tersedia. Staf kami sedang bekerja "
+"untuk memperbaikinya sesegera mungkin."
 
 #: lms/templates/module-error.html
 msgid "Raw data:"
@@ -13238,14 +13356,30 @@ msgstr "Anda sekarang mengikuti kursus sebagai {i_start} {user_name} {i_end}."
 
 #: lms/templates/preview_menu.html
 msgid "View in the new experience"
-msgstr ""
+msgstr "Tampilkan dengan tampilan baru"
 
 #: lms/templates/preview_menu.html
 msgid "View in Studio"
-msgstr ""
+msgstr "Tampilkan dalam Studio"
 
 #: lms/templates/preview_menu.html
 msgid "View in Insights"
+msgstr "Tampilkan dalam Wawasan"
+
+#: lms/templates/problem.html
+msgid "Hint"
+msgstr "Petunjuk"
+
+#: lms/templates/problem.html
+msgid "Save your answer"
+msgstr "Simpan jawaban Anda"
+
+#: lms/templates/problem.html
+msgid "Reset your answer"
+msgstr "Setel ulang jawaban Anda"
+
+#: lms/templates/problem.html
+msgid "Show answer"
 msgstr ""
 
 #: lms/templates/problem.html
@@ -13260,18 +13394,6 @@ msgid ""
 msgstr ""
 "Beberapa masalah memiliki pilihan seperti save, reset, hints, atau show "
 "answer. Pilihan ini mengikuti tombol Submit."
-
-#: lms/templates/problem.html
-msgid "Hint"
-msgstr "Petunjuk"
-
-#: lms/templates/problem.html
-msgid "Save your answer"
-msgstr "Simpan jawaban Anda"
-
-#: lms/templates/problem.html
-msgid "Reset your answer"
-msgstr "Setel ulang jawaban Anda"
 
 #: lms/templates/problem.html
 msgid "Answers are displayed within the problem"
@@ -13351,7 +13473,7 @@ msgstr "Penting!"
 #: lms/templates/seq_module.html
 msgctxt "unit"
 msgid "Previous"
-msgstr ""
+msgstr "Sebelumnya"
 
 #. Translators: A button for showing the Next Unit
 #: lms/templates/seq_module.html
@@ -13367,7 +13489,7 @@ msgstr "Urutan"
 #: lms/templates/vert_module.html
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html
 msgid "Completed"
-msgstr ""
+msgstr "Selesai"
 
 #: lms/templates/signup_modal.html
 msgid "Sign Up for {platform_name}"
@@ -13578,6 +13700,10 @@ msgid "Git Logs"
 msgstr "Git Logs"
 
 #: lms/templates/sysadmin_dashboard.html
+msgid "Note: Sysadmin panel will be deprecated in the next release."
+msgstr ""
+
+#: lms/templates/sysadmin_dashboard.html
 msgid "User Management"
 msgstr "Pengelolaan Pengguna"
 
@@ -13594,28 +13720,12 @@ msgid "Create user"
 msgstr "Membuat pengguna"
 
 #: lms/templates/sysadmin_dashboard.html
-msgid "Download list of all users (csv file)"
-msgstr "Unduh daftar pengguna (csv file)"
-
-#: lms/templates/sysadmin_dashboard.html
-msgid "Check and repair external authentication map"
-msgstr "Cek dan perbaiki peta otentikasi eksternal"
-
-#: lms/templates/sysadmin_dashboard.html
 msgid ""
 "Go to each individual course's Instructor dashboard to manage course "
 "enrollment."
 msgstr ""
 "Pergi ke dashboard tiap mata kuliah dari Instruktur untuk mengatur "
 "pendaftaran mata kuliah."
-
-#: lms/templates/sysadmin_dashboard.html
-msgid "Manage course staff and instructors"
-msgstr "Atur staf kursus dan instruktur"
-
-#: lms/templates/sysadmin_dashboard.html
-msgid "Download staff and instructor list (csv file)"
-msgstr "Unduh staf dan instruktur (csv file)"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Administer Courses"
@@ -14718,32 +14828,32 @@ msgstr "Masukkan username untuk melihat katalog milik pengguna tersebut"
 #: lms/templates/bulk_email/confirm_unsubscribe.html
 #: lms/templates/bulk_email/unsubscribe_success.html
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Berhenti Berlangganan."
 
 #: lms/templates/bulk_email/confirm_unsubscribe.html
 msgid "confirm unsubscribe from {org} {course} emails."
-msgstr ""
+msgstr "konfirmasi untul berhenti berlangganan dari surel {org} {course}."
 
 #: lms/templates/bulk_email/confirm_unsubscribe.html
 msgid "Note:"
-msgstr ""
+msgstr "Catatan:"
 
 #: lms/templates/bulk_email/confirm_unsubscribe.html
 msgid ""
 "You will still receive course emails from other courses you are enrolled in."
-msgstr ""
+msgstr "Anda tetap menerima surel dari kursus anda yang lain."
 
 #: lms/templates/bulk_email/unsubscribe_success.html
 msgid "You have successfully unsubscribed from {org} {course} emails."
-msgstr ""
+msgstr "Anda berhasil berhenti berlangganan dari surel {org} {course}."
 
 #: lms/templates/bulk_email/unsubscribe_success.html
 msgid "You have not been unsubscribed from {org} {course} emails."
-msgstr ""
+msgstr "Anda belum berhenti berlangganan dari surel {org} {course}."
 
 #: lms/templates/bulk_email/unsubscribe_success.html
 msgid "{link_start}Return to edX.org{link_end}"
-msgstr ""
+msgstr "{link_start}IKembali ke edX.org{link_end}"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Open Calculator"
@@ -15673,6 +15783,8 @@ msgid ""
 "We're sorry, this module is temporarily unavailable. Our staff is working to"
 " fix it as soon as possible."
 msgstr ""
+"Maaf, modul ini untuk sementara tidak tersedia. Staf kami sedang bekerja "
+"untuk memperbaikinya sesegera mungkin."
 
 #: lms/templates/courseware/courseware.html
 msgid "Course Search"
@@ -15704,23 +15816,23 @@ msgstr "Info Kursus {course.display_number_with_default}"
 
 #: lms/templates/courseware/dates.html
 msgid "Important Dates"
-msgstr ""
+msgstr "Tanggal penting"
 
 #: lms/templates/courseware/dates.html
 msgid "Today"
-msgstr ""
+msgstr "Hari ini"
 
 #: lms/templates/courseware/dates.html
 msgid "Verified Only"
-msgstr ""
+msgstr "Khusus yang Terverifikasi"
 
 #: lms/templates/courseware/dates.html
 msgid "Due Next"
-msgstr ""
+msgstr "Tenggat Waktu Selanjutnya"
 
 #: lms/templates/courseware/dates.html
 msgid "Not yet released"
-msgstr ""
+msgstr "Belum dirilis"
 
 #: lms/templates/courseware/gradebook.html
 msgid "Gradebook"
@@ -16149,7 +16261,7 @@ msgstr "Nilai akhir anda:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grades will be finalized on {cert_available_date}"
-msgstr ""
+msgstr "Nilai akan dimatangkan di  {cert_available_date}"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grade required for a {cert_name_short}:"
@@ -16401,6 +16513,8 @@ msgid ""
 "You will see a message on your dashboard when the verification process is "
 "complete (usually within 5-7 days)."
 msgstr ""
+"Anda akan mendapatkan pesan di halaman dashboard saat proses verifikasi "
+"selesai (biasanya dalam 5-7 hari)."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Your current verification will expire soon!"
@@ -16412,6 +16526,8 @@ msgid ""
 "on your dashboard when the verification process is complete (usually within "
 "5-7 days)."
 msgstr ""
+"Anda telah mengirimkan informasi verifikasi ulang Anda. Anda akan melihat "
+"pesan di dashboard saat proses verifikasi selesai (biasanya dalam 5-7 hari)."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "You have successfully verified your ID with edX"
@@ -16573,6 +16689,10 @@ msgid ""
 "photo verification can take up to three days once initiated and you will not"
 " be able to earn a certificate or take a proctored exam until approved."
 msgstr ""
+"Verifikasi foto Anda kedaluwarsa pada {verification_expiry}. Harap diketahui"
+" bahwa verifikasi foto dapat memakan waktu hingga tiga hari setelah "
+"diserahkan dan Anda tidak akan memperoleh sertifikat atau mengikuti ujian "
+"yang diprogram sampai verifikasi disetujui."
 
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid "Resubmit Verification"
@@ -16630,6 +16750,9 @@ msgid ""
 " and you will not be able to earn a certificate or take a proctored exam "
 "until approved."
 msgstr ""
+"Harap diketahui bahwa verifikasi foto dapat memakan waktu hingga tiga hari "
+"setelah diserahkan dan Anda tidak akan memperoleh sertifikat atau mengikuti "
+"ujian yang diprogram sampai verifikasi disetujui."
 
 #: lms/templates/dashboard/_dashboard_third_party_error.html
 msgid "Could Not Link Accounts"
@@ -17143,10 +17266,9 @@ msgstr "Selamat! Proses verikasi identitas Anda berhasil."
 
 #: lms/templates/emails/passed_verification_email.txt
 msgid ""
-"Your verification is effective for one year. It will expire on {expiry_date}"
+"Your verification is effective for one year. It will expire on "
+"{expiration_datetime}"
 msgstr ""
-"Hasil verifikasi Anda berlaku efektif untuk satu tahun, dan akan kadaluarsa "
-"pada {expiry_date}"
 
 #: lms/templates/emails/photo_submission_confirmation.txt
 msgid "Hi {full_name},"
@@ -17624,6 +17746,10 @@ msgstr "Kehormatan"
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Professional"
 msgstr "Profesional"
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html
+msgid "Executive Education"
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Master's"
@@ -18390,15 +18516,15 @@ msgstr "Tambahkan Admin Diskusi"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Course Data Researcher"
-msgstr ""
+msgstr "Kursus Peneliti Data"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Course Data Researchers can access the data download tab."
-msgstr ""
+msgstr "Kursus Peneliti Data dapat mengakses tab Unduh data."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Course Data Researcher"
-msgstr ""
+msgstr "Tambahkan Kursus Peneliti Data"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Moderators"
@@ -18859,7 +18985,7 @@ msgstr "Tampilkan status tugas yang Anda kirimkan untuk masalah ini."
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/grading.html
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html
 msgid "Note"
-msgstr ""
+msgstr "Catatan"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/problem_report.html
 msgid ""
@@ -19198,6 +19324,9 @@ msgid ""
 " your password, go to the {start_link}sign-in{end_link} page and select "
 "{start_strong}Forgot password{end_strong}."
 msgstr ""
+"Link reset sandi ini tidak valid. Kemungkinan sudah terpakai. Untuk merubah "
+"sandi anda, kunjungi {start_link}sign-in{end_link} halaman dan pilih "
+"{start_strong}Lupa Sandi{end_strong}."
 
 #: lms/templates/registration/password_reset_done.html
 msgid "Password reset successful"
@@ -19217,6 +19346,8 @@ msgid ""
 "The page that you were looking for was not found. Go back to the "
 "{link_start}homepage{link_end} ."
 msgstr ""
+"Halaman yang Anda cari tidak ditemukan. Kembali ke {link_start} beranda "
+"{link_end}"
 
 #: lms/templates/static_templates/about.html
 #: lms/templates/static_templates/blog.html
@@ -19269,6 +19400,7 @@ msgstr "Saat ini, server  {platform_name} sedang down"
 msgid ""
 "Our staff is currently working to get the site back up as soon as possible. "
 msgstr ""
+"Staff kami saat ini bekerja untuk mengatasi masalah ini sesegera mungkin."
 
 #: lms/templates/static_templates/server-error.html
 msgid "There has been a 500 error on the {platform_name} servers"
@@ -19276,7 +19408,7 @@ msgstr "Terjadi eror 500 di server {platform_name}"
 
 #: lms/templates/static_templates/server-error.html
 msgid "Please wait a few seconds and then reload the page."
-msgstr ""
+msgstr "Harap tunggu sebentar dan kemudian muat kembali halamannya."
 
 #: lms/templates/static_templates/server-overloaded.html
 msgid "Currently the {platform_name} servers are overloaded"
@@ -19291,6 +19423,8 @@ msgid ""
 " and access to private sites offered by MIT Open Learning, Wharton Executive"
 " Education, and Harvard Medical School"
 msgstr ""
+" dan akses ke situs khusus yang disediakan oleh MIT Open Learning, Wharton "
+"Executive Education, dan Harvard Medical School"
 
 #: lms/templates/student_account/finish_auth.html
 msgid "Please Wait"
@@ -19342,7 +19476,7 @@ msgstr "Student Support: Kelola Pengguna"
 
 #: lms/templates/support/program_enrollments_inspector.html
 msgid "Program Enrollments Inspector"
-msgstr ""
+msgstr "Inspektur Pendaftaran Program"
 
 #: lms/templates/survey/survey.html
 msgid "User Survey"
@@ -19497,6 +19631,9 @@ msgid ""
 "message on your dashboard when the verification process is complete (usually"
 " within 5-7 days)."
 msgstr ""
+"Anda telah mengirimkan informasi verifikasi Anda. Anda akan mendapatkan "
+"pesan di dasbor Anda ketika proses verifikasi selesai (biasanya dalam 5-7 "
+"hari)."
 
 #: lms/templates/verify_student/reverify_not_allowed.html
 msgid "You cannot verify your identity at this time."
@@ -19591,7 +19728,7 @@ msgstr "Hak Cipta Dilindungi"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html
 msgid "Upcoming Dates"
-msgstr ""
+msgstr "Jadwal Mendatang"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Goal: "
@@ -19604,6 +19741,12 @@ msgstr "Ubah tujuan pelatihan Anda"
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Pursue a verified certificate"
 msgstr "Dapatkan sertifikat terverifikasi"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
+msgid ""
+"Sample verified certificate with your name, the course title, the logo of "
+"the institution and the signatures of the instructors for this course."
+msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Upgrade ({price})"
@@ -19711,13 +19854,9 @@ msgstr "Tidak ada pembaruan pada pelatihan ini."
 msgid "Latest Update"
 msgstr "Perbaruan terakhir"
 
-#: openedx/features/course_experience/templates/course_experience/next-up-banner-fragment.html
-msgid "Get started on what's next: "
-msgstr ""
-
 #: openedx/features/course_experience/templates/course_experience/welcome-message-fragment.html
 msgid "Show More"
-msgstr ""
+msgstr "Tampilkan Lagi"
 
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html
 msgid "Search Results"
@@ -19800,14 +19939,6 @@ msgid "edX Partner Portal"
 msgstr "Portal Mitra edX"
 
 #: themes/edx.org/lms/templates/dashboard.html
-msgid "Want to make edX better for everyone?"
-msgstr ""
-
-#: themes/edx.org/lms/templates/dashboard.html
-msgid "Get started"
-msgstr ""
-
-#: themes/edx.org/lms/templates/dashboard.html
 msgid ""
 "Browse recently launched courses and see what's new in your favorite "
 "subjects."
@@ -19817,11 +19948,11 @@ msgstr ""
 
 #: themes/edx.org/lms/templates/dashboard.html
 msgid "Take advantage of free coaching!"
-msgstr ""
+msgstr "NIkmati pelatihan gratis!"
 
 #: themes/edx.org/lms/templates/dashboard.html
 msgid "Get Started"
-msgstr ""
+msgstr "Mulai"
 
 #: themes/edx.org/lms/templates/footer.html
 msgid "Page Footer"
@@ -19837,7 +19968,7 @@ msgstr "Hubungkan"
 
 #: themes/edx.org/lms/templates/footer.html
 msgid "© {year} edX Inc. All rights reserved."
-msgstr ""
+msgstr "© {year} edX Inc. Hak cipta dilindungi."
 
 #: themes/edx.org/lms/templates/certificates/_about-accomplishments.html
 msgid "About edX Verified Certificates"
@@ -20093,6 +20224,8 @@ msgid ""
 "Required fields are noted by {strong_indicator}bold text and an asterisk "
 "(*).{strong_close}"
 msgstr ""
+"Kolom yang wajib diisi ditandai dengan {strong_indicator}teks tebal dan "
+"tanda bintang (*){strong_close}."
 
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "Update My Account"
@@ -21190,7 +21323,7 @@ msgstr ""
 
 #: cms/templates/export_git.html
 msgid "Export Course to Git:"
-msgstr ""
+msgstr "Ekspor Kursus ke Git:"
 
 #: cms/templates/export_git.html
 msgid ""
@@ -21199,11 +21332,11 @@ msgstr ""
 
 #: cms/templates/export_git.html
 msgid "Export Failed"
-msgstr ""
+msgstr "Ekspor Gagal"
 
 #: cms/templates/export_git.html
 msgid "Export Succeeded"
-msgstr ""
+msgstr "Ekspor Berhasil"
 
 #: cms/templates/export_git.html
 msgid "Your course:"
@@ -22360,9 +22493,9 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid ""
-"Self-paced courses do not have release dates for course content or due dates"
-" for assignments. Learners can complete course material at any time before "
-"the course end date."
+"Self-paced courses offer suggested due dates for assignments or exams based "
+"on the learner’s enrollment date and the expected course duration. These "
+"courses offer learners flexibility to modify the assignment dates as needed."
 msgstr ""
 
 #: cms/templates/settings.html
@@ -22375,7 +22508,7 @@ msgstr "Tanggal yang menentukan kapan kursus Anda dapat dilihat"
 
 #: cms/templates/settings.html
 msgid "Course Start Date"
-msgstr ""
+msgstr "Tanggal Mulai Kursus"
 
 #: cms/templates/settings.html
 msgid "First day the course begins"
@@ -22391,7 +22524,7 @@ msgstr "(GMT)"
 
 #: cms/templates/settings.html
 msgid "Course End Date"
-msgstr ""
+msgstr "Tanggal Selesai Kursus"
 
 #: cms/templates/settings.html
 msgid "Last day your course is active"
@@ -22912,7 +23045,7 @@ msgstr ""
 
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Expand or Collapse"
-msgstr ""
+msgstr "Luaskan atau Ciutkan"
 
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Access Settings"
