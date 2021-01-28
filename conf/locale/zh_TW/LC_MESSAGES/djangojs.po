@@ -6466,7 +6466,7 @@ msgstr "您必須儲存您的進度，否則這些變更不會生效。由於系
 
 #: cms/static/js/views/settings/advanced.js
 msgid "Your policy changes have been saved."
-msgstr "您的策略變更ß已被儲存。"
+msgstr "您的策略變更已被儲存。"
 
 #: cms/static/js/views/settings/advanced.js
 msgid ""
