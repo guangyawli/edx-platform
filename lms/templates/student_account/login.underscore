@@ -7,12 +7,14 @@
     <a href="#login" class="form-toggle" data-type="register"><%- gettext("Create an Account.") %></a>
 </div>
 </br>
+<% if (false) { %>
 <div class="text_NID">
     <span class="text"><%- gettext("首度使用校園ID或教育雲端帳號") %></span>
 </div>
 <div class="text_NID1">
     <span class="text"><%- gettext("請先註冊新帳號或以現有中華開放教育平台帳號綁定") %></span>
 </div>
+<% } %>
 <% } %>
 
 <% // Hide SSO related messages if we are not in the SSO pipeline.  %>

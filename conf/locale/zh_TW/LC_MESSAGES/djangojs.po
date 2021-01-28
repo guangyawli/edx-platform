@@ -8330,11 +8330,11 @@ msgstr "錯誤發生。請重新載入頁面。"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need help signing in?"
-msgstr ""
+msgstr "需要登入方面的協助嗎"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Forgot my password"
-msgstr ""
+msgstr "忘記密碼"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Other sign-in issues"
@@ -8342,11 +8342,11 @@ msgstr "其他註冊問題"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Sign in with your company or school"
-msgstr ""
+msgstr "使用機構/學校登入"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need other help signing in?"
-msgstr "ㄥ需要註冊方面的協助嗎"
+msgstr "需要註冊方面的協助嗎"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Create an account"
