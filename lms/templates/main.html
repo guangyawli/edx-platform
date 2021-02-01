@@ -161,13 +161,13 @@ from common.djangoapps.pipeline_mako import render_require_js_path_overrides
 % endif
 <% ga_acct1 = static.get_value("GOOGLE_ANALYTICS_ACCOUNT_4", settings.GOOGLE_ANALYTICS_ACCOUNT_4) %>
 % if ga_acct1 == 'PRO':
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3LCBRJP4F"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6SN14YNSH0"></script>
     <script>
-           window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());
-           gtag('config', 'G-X3LCBRJP4F');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6SN14YNSH0');
     </script>
 % endif
 <% branch_key = static.get_value("BRANCH_IO_KEY", settings.BRANCH_IO_KEY) %>
