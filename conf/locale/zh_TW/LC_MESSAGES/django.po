@@ -5957,7 +5957,7 @@ msgstr "您的註冊:審核追蹤"
 msgid ""
 "You are enrolled in the audit track for this course. The audit track does "
 "not include a certificate."
-msgstr "您已註冊本課程的審核追蹤。 審核追蹤不包括證書。"
+msgstr "您已註冊本課程的審核追蹤。本頁為您的學習進度，非完課證明。"
 
 #: lms/djangoapps/courseware/views/views.py
 msgid "Your enrollment: Honor track"
