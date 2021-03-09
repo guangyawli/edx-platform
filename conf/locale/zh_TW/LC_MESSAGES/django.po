@@ -5961,7 +5961,7 @@ msgstr "若課程進度有任何問題，請聯絡客服。"
 
 #: lms/djangoapps/courseware/views/views.py
 msgid "Your enrollment: Honor track"
-msgstr "您的註冊:榮譽追蹤"
+msgstr "本頁為您的學習進度，非完課證明。"
 
 #: lms/djangoapps/courseware/views/views.py
 msgid ""
@@ -14531,13 +14531,13 @@ msgstr "發生錯誤。請稍後再試一次。"
 
 #: lms/templates/courseware/course_about.html
 msgid "You are enrolled in this course"
-msgstr "您參加此課程"
+msgstr "您已註冊此課程"
 
 #: lms/templates/courseware/course_about.html
 #: lms/templates/dashboard/_dashboard_course_resume.html
 #: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
 msgid "View Course"
-msgstr "檢視課程"
+msgstr "開始課程"
 
 #: lms/templates/courseware/course_about.html
 msgid "Course is full"
@@ -14774,7 +14774,7 @@ msgstr "歡迎來到{course_title}！"
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 #: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
 msgid "Resume Course"
-msgstr "重開課程"
+msgstr "繼續課程"
 
 #: lms/templates/courseware/info.html
 msgid "View Updates in Studio"
