@@ -4,8 +4,15 @@ metadata:
     markdown: |
 
         You can use this template as a guide to the simple editor markdown and OLX markup to use for multiple choice problems. Edit this component to replace this template with your own assessment.
+        下方是問題範例：
 
-        >>Add the question text, or prompt, here. This text is required.||You can add an optional tip or note related to the prompt like this. <<
+        >>題目1：Add the question text, or prompt, here. This text is required.<<
+
+        ( ) an incorrect answer
+        (x) the correct answer
+        ( ) an incorrect answer
+
+        >>題目2：Add the question text, or prompt, here. This text is required.<<
 
         ( ) an incorrect answer
         (x) the correct answer
@@ -14,14 +21,24 @@ metadata:
 
 data:   |
         <problem>
-            <multiplechoiceresponse>
-                <p>You can use this template as a guide to the simple editor markdown and OLX markup to use for multiple choice problems. Edit this component to replace this template with your own assessment.</p>
-                <label>Add the question text, or prompt, here. This text is required.</label>
-                <description>You can add an optional tip or note related to the prompt like this.</description>
-                <choicegroup>
-                    <choice correct="false">an incorrect answer</choice>
-                    <choice correct="true">the correct answer</choice>
-                    <choice correct="false">an incorrect answer</choice>
-                </choicegroup>
-            </multiplechoiceresponse>
+        <p>You can use this template as a guide to the simple editor markdown and OLX markup to use for multiple choice problems. Edit this component to replace this template with your own assessment.</p>
+
+        <p>下方是問題範例：</p>
+        <label>題目1：Add the question text, or prompt, here. This text is required.  </label>
+        <multiplechoiceresponse>
+           <choicegroup type="MultipleChoice">
+               <choice correct="false">an incorrect answer</choice>
+               <choice correct="true">the correct answer</choice>
+               <choice correct="false">an incorrect answer</choice>
+               </choicegroup>
+        </multiplechoiceresponse>
+
+        <label>題目2：Add the question text, or prompt, here. This text is required.</label>
+        <multiplechoiceresponse>
+          <choicegroup type="MultipleChoice">
+              <choice correct="false">an incorrect answer</choice>
+              <choice correct="true">the correct answer</choice>
+              <choice correct="false">an incorrect answer</choice>
+          </choicegroup>
+        </multiplechoiceresponse>
         </problem>
