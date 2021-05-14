@@ -137,11 +137,13 @@ def _generate_locked_out_error_message():
             locked_out_period=int(locked_out_period_in_sec / 60)))
     else:
         raise AuthFailedError(Text(_('To protect your account, it’s been temporarily '
-                                     'locked. Try again in {locked_out_period} minutes.\n'
-                                     'To be on the safe side, you can reset your '
-                                     'password {link_start}here{link_end} before you try again.\n')).format(
-            link_start=HTML('<a href="/reset" >'),
+                                     'locked. Try again in {locked_out_period} minutes.'
+                                     '{li_start}To be on the safe side, you can reset your '
+                                     'password {link_start}here{link_end} before you try again.')).format(
+            link_start=HTML('<a http="#login" class="form-toggle" data-type="password-reset">'),
             link_end=HTML('</a>'),
+            li_start=HTML('<li>'),
+            li_end=HTML('</li>'),
             locked_out_period=int(locked_out_period_in_sec / 60)))
 
 
@@ -245,16 +247,17 @@ def _handle_failed_authentication(user, authenticated_user):
                         li_end=HTML('</li>'),
                         remaining_attempts=remaining_attempts))
                 else:
-                    raise AuthFailedError(Text(_('Email or password is incorrect.\n'
-                                                 'You have {remaining_attempts} more sign-in '
-                                                 'attempts before your account is temporarily locked.\n'
-                                                 'If you{quote}ve forgotten your password, click '
-                                                 '{link_start}here{link_end} to reset.\n'
+                    raise AuthFailedError(Text(_('Email or password is incorrect.'
+                                                 '{li_start}You have {remaining_attempts} more sign-in '
+                                                 'attempts before your account is temporarily locked.{li_end}'
+                                                 '{li_start}If you\'ve forgotten your password, click '
+                                                 '{link_start}here{link_end} to reset.{li_end}'
                                                  ))
-                                          .format(
-                        quote=HTML("'"),
-                        link_start=HTML('<a href="/reset" >'),
+                        .format(
+                        link_start=HTML('<a http="#login" class="form-toggle" data-type="password-reset">'),
                         link_end=HTML('</a>'),
+                        li_start=HTML('<li>'),
+                        li_end=HTML('</li>'),
                         remaining_attempts=remaining_attempts))
             else:
                 _generate_locked_out_error_message()
